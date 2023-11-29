@@ -1,0 +1,38 @@
+.form{
+  font-size: 0.9vw;
+}
+.casella{ /* Stili per il campo di testo e per la textarea */
+  background: rgb(105,101,101); /* Colore di sfondo */
+  border: 1px solid #323232; /* Bordo */
+  border-radius:10px;
+  color: #fff; /* Colore del testo */
+  height: 50%; /* Altezza */
+  width: 95%; /* Larghezza */
+  margin-left:2%;
+}
+    
+.accedi-b {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  width: 65%;
+  height: 65%;
+  border-radius: 45px;
+  margin: 10% 20%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9vw;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #696565;
+  background: #f4bd00;
+  box-shadow: 0 8px 15px rgba(0,0,0,.1);
+  text-transform: uppercase;
+  transition: .3s;
+}
+
+.accedi-b:hover {
+  background: #ffe301;
+  box-shadow: 0 15px 20px rgba(244,189,0,.8);
+  transform: translateY(-7px);
+}

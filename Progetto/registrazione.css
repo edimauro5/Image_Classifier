@@ -1,0 +1,78 @@
+.all{
+  display: grid;
+  grid-template-areas: 
+ 'front'
+ 'registrazione';
+  grid-gap: 3%;
+}
+
+.registrazione{
+  display: grid;
+  grid-template-columns:70% auto;
+  padding-right: 4%;
+}
+
+input{ /* Stili per il campo di testo e per la textarea */
+  background: rgb(105,101,101); /* Colore di sfondo */
+  border: 1px solid #323232; /* Bordo */
+  border-radius:5px;
+  color: #fff; /* Colore del testo */
+  margin-left:2%;
+}
+
+.cont-reg{
+  background:rgba(241,230,196,0.85);
+  padding-left:10%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 8px;
+  box-shadow: 15px 15px 15px rgb(169,127,27);
+}
+
+#ProgressBar {
+  width: 100%;
+  background-color: #ddd;
+  max-width:300px;
+}
+
+#bar {
+  width: 1%;
+  height: 10px;
+  background-color: #4CAF50;
+  max-width:300px;
+}
+
+#alert {
+  font-weight:bold;
+  text-align:center;
+}
+.info_pass{
+	font-size:12;
+	padding-left: 0px;
+}
+ul{
+	margin-top:0px;
+}
+
+.reg-b {
+  margin-top:2%;
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9vw;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: #696565;
+  background: #f4bd00;
+  box-shadow: 0 8px 15px rgba(0,0,0,.1);
+  transition: .3s;
+}
+
+.reg-b:hover {
+  background: #ffe301;
+  box-shadow: 0 15px 20px rgba(244,189,0,.8);
+  transform: translateY(-7px);
+}

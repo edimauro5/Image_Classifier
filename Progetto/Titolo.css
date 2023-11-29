@@ -1,0 +1,36 @@
+.front{
+  grid-area: front;
+  display: grid;
+  grid-template-columns: 45% 10% 45%;
+  grid-gap: 0%;
+  padding:0;
+	
+
+}
+
+#title1{
+  text-align:right;
+}
+
+#div_logo{
+  background: url("logo2.PNG");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 58%;
+
+}
+#title2{
+  text-align:left; 
+}
+
+.title1,.title2{
+  font-size: 4vw; 
+  color:rgb(92,73,40);
+  text-shadow: 15px 15px 15px rgb(169,127,27);
+  padding-bottom: 2.5%;
+  padding-top: 2.5%;
+}
+
+h1{
+  color:rgb(73,58,35);
+}
